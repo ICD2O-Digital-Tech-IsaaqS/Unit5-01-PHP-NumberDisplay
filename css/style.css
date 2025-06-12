@@ -1,4 +1,23 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Isaaq Simon
+* Created on: June 2025
 * This file contains the CSS for index.html
 */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+label,
+input {
+    display: block;
+    margin: 8px 0;
+}
+
+#output {
+    margin-top: 20px;
+    white-space: pre-wrap;
+}
+
+.error {
+    color: red;
+}
