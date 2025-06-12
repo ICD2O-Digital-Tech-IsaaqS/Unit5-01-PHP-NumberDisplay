@@ -24,9 +24,9 @@
 
     <button type="submit">Show Numbers</button>
   </form>
-
-  <div id="output">
-    <?php
+  
+<?php
+  <div id="output"><?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $min = trim($_POST['min']);
       $max = trim($_POST['max']);
